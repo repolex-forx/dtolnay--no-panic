@@ -103,7 +103,9 @@
           "githubUrl": "https://github.com/dtolnay/trybuild",
           "source": "build_file:Cargo.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/1d85feca150ee7e1356794ab17c7be10fecaac54/chunk-001.nq.gz",
+      "dep": "dep/1d85feca150ee7e1356794ab17c7be10fecaac54.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
