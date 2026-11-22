@@ -1,0 +1,17 @@
+[2026-11-22T06:18:37Z] === ENRICH ITERATION 1 START | repo=dtolnay/no-panic sha=1d85feca ===
+[2026-11-22T06:18:37Z] [iter=1] PHASE START: enrich repo=dtolnay/no-panic sha=1d85feca runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1d85feca-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1d85feca150ee7e1356794ab17c7be10fecaac54.nq.gz
+[2026-11-22T06:18:43Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T06:18:43Z] [iter=1] AST store loaded triples=25681 load_secs=0 mem_mb=116 MB
+[2026-11-22T06:18:43Z] [iter=1] Step 2: Finding LSP targets mem_mb=116 MB
+[2026-11-22T06:18:43Z] [iter=1] LSP targets found call_sites=191 imports=16 extends=0 implements=0 secs=0
+[2026-11-22T06:18:43Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=116 MB
+[2026-11-22T06:18:43Z] [iter=1] Position index built positions=1755 nodes_with_types=2115 secs=0 mem_mb=116 MB
+[2026-11-22T06:18:43Z] [iter=1] Step 3: Starting LSP resolution mem_mb=116 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T06:18:43Z] [iter=1] Resolving target type target_type=call_site count=191
+[2026-11-22T06:19:03Z] [iter=1] Target type resolved target_type=call_site resolved=174 errors=0 secs=20 mem_mb=116 MB
+[2026-11-22T06:19:03Z] [iter=1] Resolving target type target_type=import_statement count=16
+[2026-11-22T06:19:08Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=0.5 files_done=1 resolved=3 errors=0 current=tests/ui/async-fn.rs
+[2026-11-22T06:19:10Z] [iter=1] Target type resolved target_type=import_statement resolved=13 errors=0 secs=7 mem_mb=116 MB
+[2026-11-22T06:19:17Z] [iter=1] Step 5: Writing final enrichment file triples=2125
+[2026-11-22T06:19:17Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/1d85feca150ee7e1356794ab17c7be10fecaac54.nq.gz size_kb=32
+[2026-11-22T06:19:17Z] [iter=1] PHASE END: enrich elapsed_s=40 elapsed_min=0.7 total_triples=2125

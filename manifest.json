@@ -36,6 +36,73 @@
       ],
       "ast": [
         "aggregate/ast/1d85feca150ee7e1356794ab17c7be10fecaac54/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/1d85feca150ee7e1356794ab17c7be10fecaac54.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.74",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "6cb41f895657424f8f64eecbd7e8ad392b0b26e0",
+          "githubTag": "1.0.74",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.35",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "b01743f24cb5b19f96a3eac6bce0e7aee10f6199",
+          "githubTag": "1.0.35",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.46",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "1650c861a408dcaaa5d77f07472e22cb5aa2abb2",
+          "githubTag": "2.0.46",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustversion",
+          "ecosystem": "CARGO",
+          "version": "1.0.13",
+          "githubOrg": "dtolnay",
+          "githubRepo": "rustversion",
+          "githubCommit": "01eae109f33b47fc93243db4407b9d4df68abccf",
+          "githubTag": "1.0.13",
+          "githubUrl": "https://github.com/dtolnay/rustversion",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "scratch",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "scratch",
+          "githubUrl": "https://github.com/dtolnay/scratch",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.108",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "89963402acbd517e9fd0697b8152461c823037d0",
+          "githubTag": "1.0.108",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
