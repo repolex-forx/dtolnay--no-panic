@@ -1,0 +1,7 @@
+[2026-11-22T06:16:20Z] === AST ITERATION 1 START | repo=dtolnay/no-panic sha=1d85feca ===
+[2026-11-22T06:16:20Z] [iter=1] PHASE START: ast repo=dtolnay/no-panic sha=1d85feca
+[2026-11-22T06:16:20Z] [iter=1] Building AST aggregate chunks
+[2026-11-22T06:16:22Z] [iter=1] AST chunks built count=1 triples=25681
+[2026-11-22T06:16:22Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/1d85feca150ee7e1356794ab17c7be10fecaac54/.complete
+[2026-11-22T06:16:22Z] [iter=1] PHASE END: ast elapsed_s=1 elapsed_min=0.0
+[2026-11-22T06:16:22Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
