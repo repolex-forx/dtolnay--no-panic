@@ -1,0 +1,11 @@
+{
+  "org": "dtolnay",
+  "repo": "no-panic",
+  "versions": [
+    {
+      "commit": "1d85feca150ee7e1356794ab17c7be10fecaac54",
+      "tag": "0.1.36",
+      "parsed_at": "2026-11-22T06:20:39.770379+00:00"
+    }
+  ]
+}
